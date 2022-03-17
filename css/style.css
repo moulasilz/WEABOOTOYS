@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Quicksand', sans-serif;
+}
+#header{
+    width: 100%;
+    overflow: hidden;
+}
+#header .contact-info{
+    width: 100%;
+    display: inline-block;
+    
+    text-align: right;
+    background-color: #EBF7FA;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.contact-info li{
+    border-right: solid 1px rgba(1, 1, 1, 0.09);
+    padding: 0px 16px;
+    text-align: center;
+    display: inline-block;
+}
+.pointer-hover:hover{
+    cursor: pointer;
+}
+.contact-info li .fa-brands{
+    padding: 8px;  
+    font-size: 15px; 
+    transition-duration: 1s;
+    color: #000000;
+}
+.contact-info .brands .fa-brands:hover{
+    transform: scale(1.3);
+    transition-duration: 1s;
+}
+#sec-heading{
+    line-height: 70px;
+    padding: 10px 16px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+#sec-heading .logo{
+    font-size: 40px;
+    padding: 0 16px;
+    float: left;
+    font-style: italic;
+    text-transform: uppercase ;
+    user-select: none;
+    letter-spacing: 1px;
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0 30px;
+    overflow: hidden;
+    display: inline-flex;
+}
+.nav li{
+    float: left;
+    padding: 0 20px;
+    font-weight: bold;
+    position: relative;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+.nav li:hover a{
+    color: red;
+    transition-duration: 0.2s;
+}
+.control-panel{
+    
+    float: right;
+    padding: 14px 16px;
+
+}
+.control-panel .control-panel-list{
+    background: #81D1E5;
+    border-radius:60px;
+    line-height: 40px;
+    
+}
+.control-panel-list ul{
+    padding: 0 14px;
+    border: dashed rgba(0, 0, 0, 0.15);
+    border-radius:60px;
+    
+}
+.control-panel-list ul li{
+    padding: 0 12px;
+    font-size: 20px;
+    color: white;
+    transition-duration: 0.5s;
+}
+.control-panel-list ul li:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+#banner{
+    margin-bottom: -5px;
+}
+#banner img{
+    width: 100%;
+}
+
+#top-saleoff{
+    background: #EBF7FA;
+}
+.h2-title{
+    padding-left: 16px ;
+    font-family: 'Sigmar One', cursive;
+    padding-top: 16px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+            /* BUY ITEM  */
+        .saleoff-list{
+            margin: 15px -8px 32px;
+            overflow: hidden;
+            height: 700px;
+        }
+        .saleoff-item{
+            height: 700px;
+            float: left;
+            width: calc(100%/3);
+            padding: 0 8px;
+        }
+        .saleoff-img{
+            display: block;
+            width: 100%;
+        }
+        .saleoff-content{
+            height: 35%;
+            background-color: white;
+            padding: 1px 16px;
+            font-size: 15px;
+        }
+        .saleoff-content .info-content{
+            height: 150px;
+        }
+        .saleoff-heading{
+            min-height: 46px;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .saleoff-price{
+            margin: 15px 0;
+            color: red;
+        }
+        .saleoff-desc{
+            margin: 15px 0;
+            line-height: 1.4;
+        }
+        .buy-tick{
+            color: white;
+            background-color: #000000;
+            text-decoration: none;
+            padding: 8px 16px;
+            margin-bottom: 16px;
+            display: inline-block;
+        }
+        .buy-tick:hover{
+            background-color: #e4e4e4;
+            color: black;
+        }
+
+#feature{
+    
+}
+#feature .feature-list{
+    text-align: center ;
+    overflow: hidden;
+}
+#feature .feature-list .feature-item{
+    width: calc(100% / 6);
+    padding: 14px;
+    float: left;
+    list-style: none;
+    font-weight: 1000;
+
+}
+#feature .feature-list .feature-item a{
+    color: black;
+    text-decoration: none;
+}
+#feature .feature-list .feature-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+#feature .feature-list .feature-item:hover img{
+    opacity: 0.8;
+}
+#hot-trademark{
+    padding: 16px 0px;
+    background: #EBF7FA;
+}
+.trademark-list{
+    padding: 16px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.trademark-item{
+    list-style: none;
+    float: left;
+    width: calc(100% / 8);
+}
+
+#service{
+    background: #EBF7FA;
+    overflow: hidden;
+
+}
+
+.service-item{
+    float: left;
+    margin: 0 100px;
+    margin-bottom: 100px;
+}
+.service-item li{
+    list-style: '-';
+    padding-left: 5px;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    line-height: 30px;
+    width: 100%;
+    background: #D2EBF0;
+    text-align: center;
+}
